@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'npm init'
+      'submenu': [
+        {
+          'label': 'Empty'
+          'command': 'npm-init:empty'
+        }
+      ]
+    ]
+  }
+]
