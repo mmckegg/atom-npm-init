@@ -8,8 +8,8 @@ function initEmpty () {
   var fs = require('fs')
   var path = require('path')
   var editor = atom.workspace.getActiveTextEditor()
-  var filename = editor.getPath()
-  var dirname = path.dirname(filename)
+  var projectPath = atom.project.getPaths()[0]
+  var dirname = editor ? path.dirname(editor.getPath()) : projectPath
   var packagePath = path.join(dirname, 'package.json')
 
   fs.exists(packagePath, function (exists) {
