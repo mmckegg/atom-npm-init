@@ -2,7 +2,7 @@
   "name": "npm-init",
   "private": true,
   "main": "./index",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Initialize an empty package.json file in the current directory.",
   "keywords": [],
   "activationCommands": {
