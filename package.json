@@ -2,11 +2,14 @@
   "name": "npm-init",
   "private": true,
   "main": "./index",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Initialize an empty package.json file in the current directory.",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["npm-init:empty", "npm-init:default"]
+    "atom-workspace": [
+      "npm-init:empty",
+      "npm-init:default"
+    ]
   },
   "repository": "https://github.com/mmckegg/atom-npm-init",
   "license": "MIT",
