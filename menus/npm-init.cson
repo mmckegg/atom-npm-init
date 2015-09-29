@@ -7,6 +7,10 @@
         {
           'label': 'Empty'
           'command': 'npm-init:empty'
+        },
+        {
+          'label': 'Default'
+          'command': 'npm-init:default'
         }
       ]
     ]
